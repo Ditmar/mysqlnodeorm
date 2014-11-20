@@ -5,9 +5,11 @@ Basic ORM for mysql module in node js
 DEPENDENCIAS
 Este modulo depende de la libreria mysql para nodejs
 INSTALACION
+===========
 descarga npm install mysql
 git clone git@github.com:Ditmar/mysqlnodeorm.git
 USO
+===========
 var mysql=require("./db/mysql.js");
 var query=mysql({
     host:"localhost",
@@ -24,8 +26,9 @@ query.get("tablename").where({"id":1}).execute(function(rows){
 query.get("tablename").where({id:1}).where_or({id:2}).orderby("-id").limit(4).execute(function(rows){
   console.log(rows);
 });
-//consultas anidadas
 
+Consultas anidadas
+==================
 
 query.get("usuario").execute(function(rows){
     //ejemplo la fila 5
