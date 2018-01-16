@@ -1,0 +1,78 @@
+{
+  "_args": [
+    [
+      "mysql_orm",
+      "/home/ditmar/seminario/servicios/applicationserver"
+    ]
+  ],
+  "_from": "mysql_orm@^1.0.8",
+  "_id": "mysql_orm@1.0.8",
+  "_inBundle": false,
+  "_inCache": true,
+  "_installable": true,
+  "_integrity": "sha1-kFRpoGGF9NaRJfuSCyVIlzrQp/8=",
+  "_location": "/mysql_orm",
+  "_nodeVersion": "0.12.4",
+  "_npmUser": {
+    "email": "ditmarcastro@gmail.com",
+    "name": "ditmaros"
+  },
+  "_npmVersion": "2.10.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "mysql_orm@^1.0.8",
+    "name": "mysql_orm",
+    "escapedName": "mysql_orm",
+    "rawSpec": "^1.0.8",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.8"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/mysql_orm/-/mysql_orm-1.0.8.tgz",
+  "_shasum": "905469a06185f4d69125fb920b2548973ad0a7ff",
+  "_shrinkwrap": null,
+  "_spec": "mysql_orm@^1.0.8",
+  "_where": "/Users/Ditmar/nodeprojects/test",
+  "author": {
+    "name": "npm orm user",
+    "email": "ditmarcastro@gmail.com",
+    "url": "http://"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "mysql light orm",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "69a66c127322218c14316f2adb62bc826b196404",
+    "tarball": "https://registry.npmjs.org/mysql_orm/-/mysql_orm-1.0.7.tgz"
+  },
+  "files": [
+    "README.md",
+    "index.js",
+    "lib/"
+  ],
+  "keywords": [
+    "orm"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "ditmaros",
+      "email": "ditmarcastro@gmail.com"
+    }
+  ],
+  "name": "mysql_orm",
+  "optionalDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.8"
+}
